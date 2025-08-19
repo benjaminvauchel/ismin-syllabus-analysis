@@ -8,8 +8,8 @@
 #define max(a,b) ((a)>(b) ? (a) : (b))
 #define min(a,b) ((a)<(b) ? (a) : (b))
 
-#define NOM_ARETE "edges.csv"
-#define NOM_NOEUD "nodes.csv"
+#define PATH_EDGES_CSV "input/edges.csv"
+#define PATH_NODES_CSV "input/nodes.csv"
 #define TAILLE_MAX 100
 
 typedef enum _Type {GP, UP} Type; 

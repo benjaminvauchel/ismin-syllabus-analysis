@@ -1,0 +1,460 @@
+digraph G {
+ranksep=2.5;
+	node [shape=plaintext, fontsize=16];
+S5 -> S6 -> S7 -> S8 -> S9 -> S10;
+	node [shape=ellipse];
+	"(1, 1)" [color=red];
+	"(1, 2)" -> "(3, 10)";
+	"(1, 3)" -> "(2, 12)", "(3, 13)", "(5, 39)";
+	"(1, 5)" -> "(2, 30)", "(2, 40)", "(2, 41)";
+	"(1, 6)" -> "(2, 4)", "(2, 30)", "(3, 21)", "(3, 27)", "(3, 28)";
+	"(1, 7)" [color=red];
+	"(1, 9)" -> "(2, 4)";
+	"(1, 10)" -> "(2, 30)", "(2, 31)";
+	"(1, 11)" [color=red];
+	"(1, 13)" -> "(2, 11)", "(2, 12)";
+	"(1, 14)" [color=red];
+	"(1, 15)" -> "(2, 12)", "(5, 36)", "(5, 38)";
+	"(1, 17)" -> "(2, 15)";
+	"(1, 18)" [color=red];
+	"(1, 19)" [color=red];
+	"(1, 20)" [color=red];
+	"(1, 21)" [color=red];
+	"(1, 22)" [color=red];
+	"(1, 23)" [color=red];
+	"(1, 25)" -> "(3, 29)";
+	"(1, 26)" -> "(2, 40)";
+	"(1, 27)" -> "(3, 34)";
+	"(1, 28)" [color=red];
+	"(1, 30)" -> "(2, 31)";
+	"(1, 31)" -> "(3, 23)";
+	"(1, 32)" -> "(2, 40)";
+	"(2, 1)" -> "(3, 40)", "(3, 42)", "(5, 61)";
+	"(2, 2)" [color=red];
+	"(2, 4)" -> "(3, 21)", "(3, 27)", "(3, 29)", "(3, 32)", "(5, 51)";
+	"(2, 5)" [color=red];
+	"(2, 6)" -> "(3, 29)", "(5, 11)";
+	"(2, 7)" [color=red];
+	"(2, 8)" -> "(3, 29)", "(3, 35)", "(3, 42)";
+	"(2, 9)" [color=red];
+	"(2, 11)" -> "(3, 12)";
+	"(2, 12)" -> "(3, 15)", "(3, 16)", "(4, 22)";
+	"(2, 13)" [color=red];
+	"(2, 15)" -> "(3, 1)";
+	"(2, 16)" [color=red];
+	"(2, 17)" [color=red];
+	"(2, 18)" [color=red];
+	"(2, 19)" [color=red];
+	"(2, 20)" [color=red];
+	"(2, 21)" [color=red];
+	"(2, 22)" [color=red];
+	"(2, 23)" [color=red];
+	"(2, 25)" [color=red];
+	"(2, 26)" [color=red];
+	"(2, 27)" [color=red];
+	"(2, 28)" [color=red];
+	"(2, 30)" -> "(3, 24)";
+	"(2, 31)" -> "(3, 24)";
+	"(2, 32)" [color=red];
+	"(2, 34)" [color=red];
+	"(2, 35)" -> "(5, 29)", "(5, 53)";
+	"(2, 36)" [color=red];
+	"(2, 37)" -> "(5, 61)";
+	"(2, 38)" [color=red];
+	"(2, 40)" -> "(3, 32)", "(3, 41)", "(3, 42)", "(5, 24)", "(5, 51)";
+	"(2, 41)" -> "(5, 29)";
+	"(2, 42)" [color=red];
+	"(3, 1)" -> "(4, 6)";
+	"(3, 2)" [color=red];
+	"(3, 3)" [color=red];
+	"(3, 4)" [color=red];
+	"(3, 5)" [color=red];
+	"(3, 6)" [color=red];
+	"(3, 7)" [color=red];
+	"(3, 8)" [color=red];
+	"(3, 10)" -> "(5, 3)", "(5, 72)", "(5, 74)";
+	"(3, 11)" -> "(4, 2)", "(4, 36)";
+	"(3, 12)" -> "(4, 4)", "(4, 36)";
+	"(3, 13)" -> "(5, 1)", "(5, 39)";
+	"(3, 15)";
+	"(3, 16)" -> "(4, 36)", "(5, 55)", "(6, 7)";
+	"(3, 17)" [color=red];
+	"(3, 18)" -> "(5, 89)";
+	"(3, 19)" [color=red];
+	"(3, 21)" -> "(4, 28)", "(4, 29)", "(5, 10)", "(5, 12)", "(5, 13)", "(5, 88)";
+	"(3, 22)" -> "(5, 10)";
+	"(3, 23)";
+	"(3, 24)" -> "(4, 29)", "(5, 10)";
+	"(3, 25)" [color=red];
+	"(3, 27)";
+	"(3, 28)" -> "(5, 16)", "(5, 88)";
+	"(3, 29)" -> "(5, 78)", "(5, 80)", "(5, 84)", "(5, 88)";
+	"(3, 30)" [color=red];
+	"(3, 32)" -> "(5, 1)", "(5, 4)", "(5, 7)", "(5, 13)", "(5, 88)";
+	"(3, 33)" -> "(5, 5)", "(5, 6)", "(5, 7)", "(5, 13)", "(5, 71)", "(5, 73)";
+	"(3, 34)" -> "(5, 14)";
+	"(3, 35)" -> "(5, 11)", "(5, 13)", "(5, 87)";
+	"(3, 36)" [color=red];
+	"(3, 37)" [color=red];
+	"(3, 39)" -> "(4, 28)";
+	"(3, 40)";
+	"(3, 41)" -> "(4, 2)";
+	"(3, 42)" -> "(5, 13)", "(5, 73)", "(5, 83)";
+	"(3, 43)" [color=red];
+	"(4, 1)" -> "(5, 89)";
+	"(4, 2)" -> "(5, 65)";
+	"(4, 3)" [color=red];
+	"(4, 4)" -> "(5, 39)", "(5, 64)", "(6, 7)";
+	"(4, 6)" -> "(5, 61)";
+	"(4, 7)" [color=red];
+	"(4, 8)" [color=red];
+	"(4, 9)" [color=red];
+	"(4, 10)" [color=red];
+	"(4, 11)" [color=red];
+	"(4, 12)" [color=red];
+	"(4, 13)" [color=red];
+	"(4, 14)" [color=red];
+	"(4, 15)" [color=red];
+	"(4, 17)" -> "(5, 66)";
+	"(4, 18)" [color=red];
+	"(4, 20)" [color=red];
+	"(4, 21)" [color=red];
+	"(4, 22)";
+	"(4, 23)" [color=red];
+	"(4, 24)" [color=red];
+	"(4, 25)" [color=red];
+	"(4, 26)" [color=red];
+	"(4, 28)" -> "(5, 63)";
+	"(4, 29)" -> "(5, 13)";
+	"(4, 30)" [color=red];
+	"(4, 32)" [color=red];
+	"(4, 33)" -> "(5, 38)";
+	"(4, 34)" -> "(5, 36)", "(5, 39)";
+	"(4, 36)" -> "(5, 39)", "(6, 7)";
+	"(4, 37)" [color=red];
+	"(5, 1)";
+	"(5, 2)" [color=red];
+	"(5, 3)";
+	"(5, 4)";
+	"(5, 5)";
+	"(5, 6)";
+	"(5, 7)";
+	"(5, 8)" [color=red];
+	"(5, 10)";
+	"(5, 11)";
+	"(5, 12)";
+	"(5, 13)";
+	"(5, 14)";
+	"(5, 15)" [color=red];
+	"(5, 16)";
+	"(5, 17)" [color=red];
+	"(5, 19)" [color=red];
+	"(5, 20)" [color=red];
+	"(5, 21)" [color=red];
+	"(5, 22)" [color=red];
+	"(5, 23)" [color=red];
+	"(5, 24)";
+	"(5, 25)" [color=red];
+	"(5, 26)" [color=red];
+	"(5, 27)" [color=red];
+	"(5, 28)" [color=red];
+	"(5, 29)";
+	"(5, 30)" [color=red];
+	"(5, 32)" [color=red];
+	"(5, 33)" [color=red];
+	"(5, 34)" [color=red];
+	"(5, 35)" [color=red];
+	"(5, 36)";
+	"(5, 37)" [color=red];
+	"(5, 38)";
+	"(5, 39)";
+	"(5, 40)" -> "(6, 7)";
+	"(5, 42)" [color=red];
+	"(5, 43)" [color=red];
+	"(5, 44)" [color=red];
+	"(5, 45)" [color=red];
+	"(5, 46)" [color=red];
+	"(5, 47)" [color=red];
+	"(5, 48)" [color=red];
+	"(5, 49)" [color=red];
+	"(5, 51)";
+	"(5, 52)" [color=red];
+	"(5, 53)";
+	"(5, 54)" [color=red];
+	"(5, 55)";
+	"(5, 56)" [color=red];
+	"(5, 57)" [color=red];
+	"(5, 58)" [color=red];
+	"(5, 59)" [color=red];
+	"(5, 60)" [color=red];
+	"(5, 61)";
+	"(5, 63)" -> "(6, 1)";
+	"(5, 64)";
+	"(5, 65)" -> "(6, 1)";
+	"(5, 66)" -> "(6, 1)";
+	"(5, 67)" [color=red];
+	"(5, 68)" [color=red];
+	"(5, 70)" [color=red];
+	"(5, 71)";
+	"(5, 72)";
+	"(5, 73)";
+	"(5, 74)";
+	"(5, 75)" [color=red];
+	"(5, 76)" [color=red];
+	"(5, 78)";
+	"(5, 79)" [color=red];
+	"(5, 80)";
+	"(5, 81)" [color=red];
+	"(5, 82)" [color=red];
+	"(5, 83)";
+	"(5, 84)";
+	"(5, 85)" [color=red];
+	"(5, 86)" [color=red];
+	"(5, 87)";
+	"(5, 88)";
+	"(5, 89)";
+	"(5, 90)" [color=red];
+	"(6, 1)";
+	"(6, 2)" [color=red];
+	"(6, 3)" [color=red];
+	"(6, 4)" [color=red];
+	"(6, 5)" [color=red];
+	"(6, 7)";
+	"(6, 8)" [color=red];
+	"(6, 10)" [color=red];
+	"(6, 11)" [color=red];
+	"(6, 12)" [color=red];
+	"(6, 13)" [color=red];
+	"(6, 14)" [color=red];
+	"(6, 15)" [color=red];
+	"(6, 16)" [color=red];
+	"(6, 18)" [color=red];
+	"(6, 19)" [color=red];
+{rank = same; S5; "(1, 1)"}
+{rank = same; S5; "(1, 2)"}
+{rank = same; S5; "(1, 3)"}
+	"(1, 3)" [shape=box]{rank = same; S5; "(1, 5)"}
+{rank = same; S5; "(1, 6)"}
+{rank = same; S5; "(1, 7)"}
+	"(1, 7)" [shape=box]{rank = same; S5; "(1, 9)"}
+{rank = same; S5; "(1, 10)"}
+{rank = same; S5; "(1, 11)"}
+	"(1, 11)" [shape=box]{rank = same; S5; "(1, 13)"}
+{rank = same; S5; "(1, 14)"}
+{rank = same; S5; "(1, 15)"}
+	"(1, 15)" [shape=box]{rank = same; S5; "(1, 17)"}
+{rank = same; S5; "(1, 18)"}
+{rank = same; S5; "(1, 19)"}
+{rank = same; S5; "(1, 20)"}
+{rank = same; S5; "(1, 21)"}
+{rank = same; S5; "(1, 22)"}
+{rank = same; S5; "(1, 23)"}
+	"(1, 23)" [shape=box]{rank = same; S5; "(1, 25)"}
+{rank = same; S5; "(1, 26)"}
+{rank = same; S5; "(1, 27)"}
+{rank = same; S5; "(1, 28)"}
+	"(1, 28)" [shape=box]{rank = same; S5; "(1, 30)"}
+{rank = same; S5; "(1, 31)"}
+{rank = same; S5; "(1, 32)"}
+	"(1, 32)" [shape=box]{rank = same; S6; "(2, 1)"}
+{rank = same; S6; "(2, 2)"}
+	"(2, 2)" [shape=box]{rank = same; S6; "(2, 4)"}
+{rank = same; S6; "(2, 5)"}
+{rank = same; S6; "(2, 6)"}
+{rank = same; S6; "(2, 7)"}
+{rank = same; S6; "(2, 8)"}
+{rank = same; S6; "(2, 9)"}
+	"(2, 9)" [shape=box]{rank = same; S6; "(2, 11)"}
+{rank = same; S6; "(2, 12)"}
+{rank = same; S6; "(2, 13)"}
+	"(2, 13)" [shape=box]{rank = same; S6; "(2, 15)"}
+{rank = same; S6; "(2, 16)"}
+{rank = same; S6; "(2, 17)"}
+{rank = same; S6; "(2, 18)"}
+{rank = same; S6; "(2, 19)"}
+{rank = same; S6; "(2, 20)"}
+{rank = same; S6; "(2, 21)"}
+{rank = same; S6; "(2, 22)"}
+{rank = same; S6; "(2, 23)"}
+	"(2, 23)" [shape=box]{rank = same; S6; "(2, 25)"}
+{rank = same; S6; "(2, 26)"}
+{rank = same; S6; "(2, 27)"}
+{rank = same; S6; "(2, 28)"}
+	"(2, 28)" [shape=box]{rank = same; S6; "(2, 30)"}
+{rank = same; S6; "(2, 31)"}
+{rank = same; S6; "(2, 32)"}
+	"(2, 32)" [shape=box]{rank = same; S6; "(2, 34)"}
+{rank = same; S6; "(2, 35)"}
+{rank = same; S6; "(2, 36)"}
+{rank = same; S6; "(2, 37)"}
+{rank = same; S6; "(2, 38)"}
+	"(2, 38)" [shape=box]{rank = same; S6; "(2, 40)"}
+{rank = same; S6; "(2, 41)"}
+{rank = same; S6; "(2, 42)"}
+	"(2, 42)" [shape=box]{rank = same; S7; "(3, 1)"}
+{rank = same; S7; "(3, 2)"}
+{rank = same; S7; "(3, 3)"}
+{rank = same; S7; "(3, 4)"}
+{rank = same; S7; "(3, 5)"}
+{rank = same; S7; "(3, 6)"}
+{rank = same; S7; "(3, 7)"}
+{rank = same; S7; "(3, 8)"}
+	"(3, 8)" [shape=box]{rank = same; S7; "(3, 10)"}
+{rank = same; S7; "(3, 11)"}
+{rank = same; S7; "(3, 12)"}
+{rank = same; S7; "(3, 13)"}
+	"(3, 13)" [shape=box]{rank = same; S7; "(3, 15)"}
+{rank = same; S7; "(3, 16)"}
+{rank = same; S7; "(3, 17)"}
+{rank = same; S7; "(3, 18)"}
+{rank = same; S7; "(3, 19)"}
+	"(3, 19)" [shape=box]{rank = same; S7; "(3, 21)"}
+{rank = same; S7; "(3, 22)"}
+{rank = same; S7; "(3, 23)"}
+{rank = same; S7; "(3, 24)"}
+{rank = same; S7; "(3, 25)"}
+	"(3, 25)" [shape=box]{rank = same; S7; "(3, 27)"}
+{rank = same; S7; "(3, 28)"}
+{rank = same; S7; "(3, 29)"}
+{rank = same; S7; "(3, 30)"}
+	"(3, 30)" [shape=box]{rank = same; S7; "(3, 32)"}
+{rank = same; S7; "(3, 33)"}
+{rank = same; S7; "(3, 34)"}
+{rank = same; S7; "(3, 35)"}
+{rank = same; S7; "(3, 36)"}
+{rank = same; S7; "(3, 37)"}
+	"(3, 37)" [shape=box]{rank = same; S7; "(3, 39)"}
+{rank = same; S7; "(3, 40)"}
+{rank = same; S7; "(3, 41)"}
+{rank = same; S7; "(3, 42)"}
+{rank = same; S7; "(3, 43)"}
+	"(3, 43)" [shape=box]{rank = same; S8; "(4, 1)"}
+{rank = same; S8; "(4, 2)"}
+{rank = same; S8; "(4, 3)"}
+{rank = same; S8; "(4, 4)"}
+	"(4, 4)" [shape=box]{rank = same; S8; "(4, 6)"}
+{rank = same; S8; "(4, 7)"}
+{rank = same; S8; "(4, 8)"}
+{rank = same; S8; "(4, 9)"}
+{rank = same; S8; "(4, 10)"}
+{rank = same; S8; "(4, 11)"}
+{rank = same; S8; "(4, 12)"}
+{rank = same; S8; "(4, 13)"}
+{rank = same; S8; "(4, 14)"}
+{rank = same; S8; "(4, 15)"}
+	"(4, 15)" [shape=box]{rank = same; S8; "(4, 17)"}
+{rank = same; S8; "(4, 18)"}
+	"(4, 18)" [shape=box]{rank = same; S8; "(4, 20)"}
+{rank = same; S8; "(4, 21)"}
+{rank = same; S8; "(4, 22)"}
+{rank = same; S8; "(4, 23)"}
+{rank = same; S8; "(4, 24)"}
+{rank = same; S8; "(4, 25)"}
+{rank = same; S8; "(4, 26)"}
+	"(4, 26)" [shape=box]{rank = same; S8; "(4, 28)"}
+{rank = same; S8; "(4, 29)"}
+{rank = same; S8; "(4, 30)"}
+	"(4, 30)" [shape=box]{rank = same; S8; "(4, 32)"}
+{rank = same; S8; "(4, 33)"}
+{rank = same; S8; "(4, 34)"}
+	"(4, 34)" [shape=box]{rank = same; S8; "(4, 36)"}
+{rank = same; S8; "(4, 37)"}
+	"(4, 37)" [shape=box]{rank = same; S9; "(5, 1)"}
+{rank = same; S9; "(5, 2)"}
+{rank = same; S9; "(5, 3)"}
+{rank = same; S9; "(5, 4)"}
+{rank = same; S9; "(5, 5)"}
+{rank = same; S9; "(5, 6)"}
+{rank = same; S9; "(5, 7)"}
+{rank = same; S9; "(5, 8)"}
+	"(5, 8)" [shape=box]{rank = same; S9; "(5, 10)"}
+{rank = same; S9; "(5, 11)"}
+{rank = same; S9; "(5, 12)"}
+{rank = same; S9; "(5, 13)"}
+{rank = same; S9; "(5, 14)"}
+{rank = same; S9; "(5, 15)"}
+{rank = same; S9; "(5, 16)"}
+{rank = same; S9; "(5, 17)"}
+	"(5, 17)" [shape=box]{rank = same; S9; "(5, 19)"}
+{rank = same; S9; "(5, 20)"}
+{rank = same; S9; "(5, 21)"}
+{rank = same; S9; "(5, 22)"}
+{rank = same; S9; "(5, 23)"}
+{rank = same; S9; "(5, 24)"}
+{rank = same; S9; "(5, 25)"}
+{rank = same; S9; "(5, 26)"}
+{rank = same; S9; "(5, 27)"}
+{rank = same; S9; "(5, 28)"}
+{rank = same; S9; "(5, 29)"}
+{rank = same; S9; "(5, 30)"}
+	"(5, 30)" [shape=box]{rank = same; S9; "(5, 32)"}
+{rank = same; S9; "(5, 33)"}
+{rank = same; S9; "(5, 34)"}
+{rank = same; S9; "(5, 35)"}
+{rank = same; S9; "(5, 36)"}
+{rank = same; S9; "(5, 37)"}
+{rank = same; S9; "(5, 38)"}
+{rank = same; S9; "(5, 39)"}
+{rank = same; S9; "(5, 40)"}
+	"(5, 40)" [shape=box]{rank = same; S9; "(5, 42)"}
+{rank = same; S9; "(5, 43)"}
+{rank = same; S9; "(5, 44)"}
+{rank = same; S9; "(5, 45)"}
+{rank = same; S9; "(5, 46)"}
+{rank = same; S9; "(5, 47)"}
+{rank = same; S9; "(5, 48)"}
+{rank = same; S9; "(5, 49)"}
+	"(5, 49)" [shape=box]{rank = same; S9; "(5, 51)"}
+{rank = same; S9; "(5, 52)"}
+{rank = same; S9; "(5, 53)"}
+{rank = same; S9; "(5, 54)"}
+{rank = same; S9; "(5, 55)"}
+{rank = same; S9; "(5, 56)"}
+{rank = same; S9; "(5, 57)"}
+{rank = same; S9; "(5, 58)"}
+{rank = same; S9; "(5, 59)"}
+{rank = same; S9; "(5, 60)"}
+{rank = same; S9; "(5, 61)"}
+	"(5, 61)" [shape=box]{rank = same; S9; "(5, 63)"}
+{rank = same; S9; "(5, 64)"}
+{rank = same; S9; "(5, 65)"}
+{rank = same; S9; "(5, 66)"}
+{rank = same; S9; "(5, 67)"}
+{rank = same; S9; "(5, 68)"}
+	"(5, 68)" [shape=box]{rank = same; S9; "(5, 70)"}
+{rank = same; S9; "(5, 71)"}
+{rank = same; S9; "(5, 72)"}
+{rank = same; S9; "(5, 73)"}
+{rank = same; S9; "(5, 74)"}
+{rank = same; S9; "(5, 75)"}
+{rank = same; S9; "(5, 76)"}
+	"(5, 76)" [shape=box]{rank = same; S9; "(5, 78)"}
+{rank = same; S9; "(5, 79)"}
+{rank = same; S9; "(5, 80)"}
+{rank = same; S9; "(5, 81)"}
+{rank = same; S9; "(5, 82)"}
+{rank = same; S9; "(5, 83)"}
+{rank = same; S9; "(5, 84)"}
+{rank = same; S9; "(5, 85)"}
+{rank = same; S9; "(5, 86)"}
+{rank = same; S9; "(5, 87)"}
+{rank = same; S9; "(5, 88)"}
+{rank = same; S9; "(5, 89)"}
+{rank = same; S9; "(5, 90)"}
+	"(5, 90)" [shape=box]{rank = same; S10; "(6, 1)"}
+{rank = same; S10; "(6, 2)"}
+{rank = same; S10; "(6, 3)"}
+{rank = same; S10; "(6, 4)"}
+{rank = same; S10; "(6, 5)"}
+	"(6, 5)" [shape=box]{rank = same; S10; "(6, 7)"}
+{rank = same; S10; "(6, 8)"}
+	"(6, 8)" [shape=box]{rank = same; S10; "(6, 10)"}
+{rank = same; S10; "(6, 11)"}
+{rank = same; S10; "(6, 12)"}
+{rank = same; S10; "(6, 13)"}
+{rank = same; S10; "(6, 14)"}
+{rank = same; S10; "(6, 15)"}
+{rank = same; S10; "(6, 16)"}
+	"(6, 16)" [shape=box]{rank = same; S10; "(6, 18)"}
+{rank = same; S10; "(6, 19)"}
+	"(6, 19)" [shape=box]}

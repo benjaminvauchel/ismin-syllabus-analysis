@@ -10,7 +10,7 @@ void initGraphe(Graphe *G, const int nbSommets) {
 }
 
 int compterLignesFicNoeuds(const char *nomFicNoeuds) {
-	FILE *fichier = fopen(NOM_NOEUD, "r");
+	FILE *fichier = fopen(PATH_NODES_CSV, "r");
 	int nbNoeuds = 0;
 
     if (fichier != NULL) {
@@ -30,7 +30,7 @@ int compterLignesFicNoeuds(const char *nomFicNoeuds) {
 }
 
 int **lireFicNoeuds(Discipline *tabMatieres, const int nbNoeuds, int *nbSemestres, int *yMax) {
-    FILE *fichier = fopen(NOM_NOEUD, "r");
+    FILE *fichier = fopen(PATH_NODES_CSV, "r");
     
     if (fichier != NULL) {
         char nom[TAILLE_MAX];
@@ -91,7 +91,7 @@ int **lireFicNoeuds(Discipline *tabMatieres, const int nbNoeuds, int *nbSemestre
 }
 
 void lireFicAretes(Graphe *G, int **matCorrespondance) {
-    FILE* fichier = fopen(NOM_ARETE, "r");
+    FILE* fichier = fopen(PATH_EDGES_CSV, "r");
         
     if (fichier != NULL) {
         int x1,y1,x2,y2;

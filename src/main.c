@@ -1,15 +1,16 @@
 #include <stdbool.h>
 #include "initialisation.h"
-#include "enregistrement.h"
+#include "display.h"
+#include "export.h"
 #include "listeDisciplines.h"
-#include "relations.h"
-#include "algorithmique.h"
+#include "graph.h"
+#include "graphMetrics.h"
 
 
 int main() {
 
 
-    const int nbNoeuds = compterLignesFicNoeuds(NOM_NOEUD);
+    const int nbNoeuds = compterLignesFicNoeuds(PATH_NODES_CSV);
 
 	printf("Le fichier contient %d noeuds.\n", nbNoeuds); //
     

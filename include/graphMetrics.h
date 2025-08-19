@@ -1,12 +1,12 @@
-#ifndef RELATIONS_H
-#define RELATIONS_H
+#ifndef GRAPH_METRICS_H
+#define GRAPH_METRICS_H
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "initialisation.h"
 #include "listeDisciplines.h"
-#include "enregistrement.h"
+#include "export.h"
 
 // Genere une liste chainee de disciplines triee dans l'ordre decroissant de relations pour chaque sommet.
 // La tete est le sommet dont le nombre de relations est le plus eleve, la queue est le sommet dont le nombre de relations est le plus faible.

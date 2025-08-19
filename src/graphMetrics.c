@@ -1,4 +1,4 @@
-#include "relations.h"
+#include "graphMetrics.h"
 
 int calculerDegres(Graphe *G) {
 	int nbAretes = 0;

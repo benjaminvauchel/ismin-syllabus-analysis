@@ -1,24 +1,38 @@
 CC = gcc
-CFLAGS = -g
+CFLAGS = -g -Iinclude
+BUILD_DIR = build
+SRC_DIR = src
 
-main: main.o initialisation.o enregistrement.o listeDisciplines.o relations.o algorithmique.o
+# Liste des fichiers sources
+SRC = $(SRC_DIR)/main.c \
+      $(SRC_DIR)/initialisation.c \
+      $(SRC_DIR)/export.c \
+      $(SRC_DIR)/display.c \
+      $(SRC_DIR)/listeDisciplines.c \
+      $(SRC_DIR)/graphMetrics.c \
+      $(SRC_DIR)/graph.c
+
+# Objets correspondants dans build/
+OBJ = $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SRC))
+
+# Nom de l'exécutable (main)
+TARGET = $(BUILD_DIR)/main
+
+
+all: $(TARGET)
+
+# Compilation de l'exécutable
+$(TARGET): $(OBJ)
 	$(CC) $(CFLAGS) $^ -o $@
 
-initialisation.o: initialisation.c initialisation.h
-	$(CC) $(CFLAGS) -c $<
+# Règle générique pour compiler les .c en .o dans build/
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c | $(BUILD_DIR)
+	$(CC) $(CFLAGS) -c $< -o $@
 
-enregistrement.o: enregistrement.c enregistrement.h initialisation.h listeDisciplines.h
-	$(CC) $(CFLAGS) -c $<
+# Crée le dossier build s'il n'existe pas
+$(BUILD_DIR):
+	mkdir -p $(BUILD_DIR)
 
-listeDisciplines.o: listeDisciplines.c listeDisciplines.h initialisation.h
-	$(CC) $(CFLAGS) -c $<
-
-relations.o: relations.c relations.h initialisation.h listeDisciplines.h enregistrement.h
-	$(CC) $(CFLAGS) -c $<
-
-algorithmique.o: algorithmique.c algorithmique.h initialisation.h listeDisciplines.h enregistrement.h relations.h
-	$(CC) $(CFLAGS) -c $<
-
-main.o: main.c initialisation.h enregistrement.h listeDisciplines.h relations.h algorithmique.h
-	$(CC) $(CFLAGS) -c $<
-
+# Nettoyage
+clean:
+	rm -rf $(BUILD_DIR)/*.o $(TARGET)

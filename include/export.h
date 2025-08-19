@@ -1,5 +1,5 @@
-#ifndef ENREGISTREMENT_H
-#define ENREGISTREMENT_H
+#ifndef EXPORT_H
+#define EXPORT_H
 
 #define OUTPUT_DIR "output/"
 
@@ -21,23 +21,12 @@ int dossierExiste(const char *path);
 // Note : Utilise mkdir pour POSIX et _mkdir pour Windows.
 void creerDossier(const char *path);
 
-// Affiche dans la console le tableau des matieres avec l'identifiant (id), le semestre (x), l'identifiant de semestre (y) et le nom de la matiere.
-void afficherTabMatieres(const Discipline *tabMatieres, const int nbNoeuds);
-
 // Enregistre dans un fichier texte le tableau des matieres avec l'identifiant (id), le semestre (x), l'identifiant de semestre (y) et le nom de la matiere.
 void enregistrerTabMatieres(const char *nomFichier, const Discipline *tabMatieres, const int nbNoeuds);
-
-// Affiche dans la console la matrice de correspondance des identifiants des matieres.
-// matCorrespondance[x][y] = id avec id le nouvel identifiant attribue.
-void afficherMatCorrespondance(const int **matCorrespondance, const int nbSemestres, const int yMax);
 
 // Enregistre la matrice de correspondance des identifiants des matieres.
 // matCorrespondance[x][y] = id avec id le nouvel identifiant attribue.
 void enregistrerMatCorrespondance(const char *nomFichier, int **matCorrespondance, const int nbSemestres, const int yMax);
-
-// Affiche dans la console la matrice d'adjacence.
-// Affiche les degres s'ils ont ete calcules.
-void afficherMatAdjacence(const Graphe *G);
 
 // Enregistre dans un fichier la matrice d'adjacence.
 // Enregistre les degres s'ils ont ete calcules.
@@ -46,22 +35,12 @@ void enregistrerMatAdjacence(const Graphe *G, const char *nomFichier);
 // Enregistre dans un fichier le numero de la composante connexe de chaque sommet.
 void enregistrerTabMarque(const char *nomFichier, const Graphe *G, const int *tabCompoConnexes);
 
-// Affiche dans la console la liste des disciplines en entree avec leur identifiant, x, y et leur nom.
-void afficherListeDiscEntier(const ListeDisciplines *liste);
-
 // Enregistre dans un fichier la liste des disciplines en entree avec leur identifiant, x, y et leur nom.
 void enregistrerListeDisc(const ListeDisciplines *liste, const char *nomFichier);
 
 // Enregistre dans un fichier dot le graphe en entree. L'utilisation de graphviz permet de l'exporter en pdf.
 // Voir README pour visualiser le graphe dans un fichier pdf.
 void enregistrerGraphe(const Graphe *G, const Discipline *tabMatieres, const int nbSemestres, const char *nomFichier);
-
-// Affiche dans la console le top n des sommets (UP ou GP) ayant le plus de relations.
-void afficherTopNbRelations(const Graphe *G, const ListeDisciplines *listeTriee, const int *nbRelations, const int n);
-
-// Affiche l'ensemble des listes chainees de disciplines d'un tableau.
-// Utile pour afficher les chemins elementaires d'un graphe.
-void afficherChaines(ListeDisciplines **chaines, const int taille);
 
 // Enregistre dans un fichier l'ensemble des listes chainees de disciplines d'un tableau.
 void enregistrerChaines(const char *nomFichier, ListeDisciplines **chaines, const int taille);

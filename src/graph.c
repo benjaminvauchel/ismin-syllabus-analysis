@@ -1,4 +1,4 @@
-#include "algorithmique.h"
+#include "graph.h"
 
 int determinerType(Discipline *tabMatieres, const int nbNoeuds) {
 	int nbUPs = 0;

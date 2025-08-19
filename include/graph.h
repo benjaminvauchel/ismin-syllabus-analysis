@@ -1,5 +1,5 @@
-#ifndef ALGORITHMIQUE_H
-#define ALGORITHMIQUE_H
+#ifndef GRAPH_H
+#define GRAPH_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,8 +7,8 @@
 #include <stdbool.h>
 #include "initialisation.h"
 #include "listeDisciplines.h"
-#include "enregistrement.h"
-#include "relations.h"
+#include "export.h"
+#include "graphMetrics.h"
 
 #define TAILLE_TAB 500
 
