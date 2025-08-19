@@ -1,0 +1,10 @@
+# Ignore build files & output
+main
+*.o
+*.txt
+build/
+output/
+
+# Ignore VSCode settings
+.vscode/
+
