@@ -102,7 +102,7 @@ make
   - [Graphe de précédence](output/graphePrecedence.pdf)
 - **Fichiers de sortie**
   - [matAdjacence.csv](output/matAdjacence.csv) : matrice d’adjacence du graphe
-  - [matAdjacanceGPrec.txt](output/matAdjacanceGPrec.txt) : matrice d'adjacence du graphe de précédence
+  - [matAdjacenceGPrec.txt](output/matAdjacenceGPrec.txt) : matrice d'adjacence du graphe de précédence
   - [matCorrespondance.csv](output/matCorrespondance.csv) : correspondance des identifiants
   - [tabMatieres.csv](output/tabMatieres.csv) : tableau des disciplines (UP/GP)
   - [cheminsElem.txt](output/cheminsElem.txt) : chemins élémentaires du graphe de précédence
